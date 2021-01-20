@@ -4,6 +4,14 @@ namespace Conditionals
 {
     class Program
     {
+        public enum Season
+        {
+            Spring,
+            Summer,
+            Autumn,
+            Winter
+        }
+
         static void Main(string[] args)
         {
             int hour = 10;
