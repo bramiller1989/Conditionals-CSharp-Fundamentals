@@ -23,10 +23,7 @@ namespace Conditionals
                 Console.WriteLine("It's evening.");
             }
 
-            if (isGoldCustomer)
-                price = 19.95f;
-            else
-                price = 29.95f;
+            price = (isGoldCustomer) ? 19.95f : 29.95f;
         }
     }
 }
