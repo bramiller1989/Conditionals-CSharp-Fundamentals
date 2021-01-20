@@ -31,12 +31,10 @@ namespace Conditionals
             switch (season)
             {
                 case Season.Autumn:
-                    Console.WriteLine("It's autumn and a beautiful season.");
+                case Season.Summer:
+                    Console.WriteLine("We've got promotion");
                     break;
 
-                case Season.Summer:
-                    Console.WriteLine("It's perfect to go to beach.");
-                    break;
 
                 default:
                     Console.WriteLine("I don't understand that season!");
